@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="menu_fullyn_root"
+              name="Fullyn Field"
+              web_icon="fullyn_field_connector,static/description/icon.png"
+              groups="base.group_system"
+              sequence="90"/>
+
+    <menuitem id="menu_fullyn_settings"
+              name="Configuration"
+              parent="menu_fullyn_root"
+              action="action_fullyn_settings"
+              groups="base.group_system"
+              sequence="10"/>
+
+    <menuitem id="menu_fullyn_open_platform"
+              name="Open the Fullyn platform"
+              parent="menu_fullyn_root"
+              action="action_fullyn_open_platform"
+              groups="base.group_system"
+              sequence="20"/>
+
+    <menuitem id="menu_fullyn_book_demo"
+              name="Book a demo"
+              parent="menu_fullyn_root"
+              action="action_fullyn_book_demo"
+              groups="base.group_system"
+              sequence="30"/>
+</odoo>
