@@ -1,4 +1,4 @@
-<section class="container" style="font-family: Inter, Arial, Helvetica, sans-serif; color: #04332d;">
+<section class="container" style="font-family: Inter, Arial, Helvetica, sans-serif; color: #024450;">
 
     <!-- ===================== HERO ===================== -->
     <div class="row" style="margin-top: 24px; margin-bottom: 24px;">
@@ -8,40 +8,93 @@
     </div>
 
     <div class="row" style="margin-bottom: 32px;">
-        <div class="col-12 text-center">
-            <h2 style="font-weight: 800; font-size: 32px; color: #04332d; margin-bottom: 12px;">
+        <div class="col-md-10">
+            <h2 style="font-weight: 800; font-size: 32px; color: #024450; margin-bottom: 12px;">
                 The office plans. The field executes. Everything lands in the right place.
             </h2>
-            <p style="font-size: 18px; color: #3b4a46; margin-bottom: 24px;">
-                Fullyn Field captures what your field teams really did (jobs, hours, trips, time off, site attendance)
-                and turns it into pre-payroll, planning and margin per site. This free connector links your Odoo
-                database to your Fullyn Field account.
+            <p style="font-size: 18px; color: #3b4a46;">
+                <b>Fullyn Field</b> is a Belgian software for companies with teams on the field: construction sites,
+                installers, maintenance technicians, cleaning crews, gardeners. Workers record their day on their phone,
+                team leaders validate it on site, the office closes the month, and the data goes to payroll and to Odoo
+                without re-typing anything.
+            </p>
+            <p style="font-size: 16px; color: #3b4a46;">
+                This free module is the <b>connector</b>: it links your Odoo database to your Fullyn Field account and
+                checks whether your Odoo is ready for it.
+            </p>
+            <p style="font-size: 15px; color: #024450; border-left: 4px solid #9af49a; padding-left: 12px;">
+                <b>Field Service</b> &middot; <b>Planning</b> &middot; <b>Timesheets</b> &middot; <b>Pre-payroll</b> &middot;
+                <b>Checkinatwork</b> &middot; <b>Check In and Out at Work (CIAO)</b> &middot;
+                <b>Mobility CP 124 / PC 124</b> &middot; <b>CP 149.01 / PC 149.01</b> &middot; Time off &middot; Kiosk time clock &middot;
+                Construction, installers, maintenance, cleaning, landscaping
             </p>
             <a href="mailto:info@fullyn.com?subject=Fullyn%20Field%20demo%20request%20(Odoo%20Apps)"
-               style="display: inline-block; background-color: #e0ff34; color: #04332d; font-weight: 700; font-size: 18px; padding: 14px 32px; border: 2px solid #04332d; border-radius: 999px; text-decoration: none;">
+               style="display: inline-block; background-color: #e0ff34; color: #024450; font-weight: 700; font-size: 18px; padding: 14px 32px; border: 2px solid #024450; border-radius: 999px; text-decoration: none; margin-top: 8px;">
                 Request a demo
             </a>
             <p style="font-size: 14px; color: #5b6b66; margin-top: 10px;">20-minute demo on one of your own sites, in French or Dutch.</p>
         </div>
+
+
+    <!-- ===================== WHAT IS FULLYN FIELD ===================== -->
+    <div class="row" style="margin-bottom: 8px;">
+        <div class="col-12">
+            <h3 style="font-weight: 800; font-size: 26px; margin-bottom: 16px;">What is Fullyn Field?</h3>
+        </div>
+    </div>
+    <div class="row" style="margin-bottom: 24px;">
+        <div class="col-md-4" style="margin-bottom: 16px;">
+            <div style="border: 1px solid #d9ded6; border-top: 6px solid #024450; border-radius: 8px; padding: 18px; height: 100%;">
+                <h4 style="font-weight: 700; font-size: 19px;">A mobile app for the field</h4>
+                <p style="font-size: 15px; margin-bottom: 0;">Workers start and stop each job with one tap, declare their trips,
+                    request time off and add photos, videos or voice notes. It works offline. Team leaders can record time
+                    for their whole crew and validate it on site.</p>
+            </div>
+        </div>
+        <div class="col-md-4" style="margin-bottom: 16px;">
+            <div style="border: 1px solid #d9ded6; border-top: 6px solid #024450; border-radius: 8px; padding: 18px; height: 100%;">
+                <h4 style="font-weight: 700; font-size: 19px;">An office back-end</h4>
+                <p style="font-size: 15px; margin-bottom: 0;">The office plans the work, follows the team in real time,
+                    corrects and validates hours, then closes the month. Each job is allocated to a project, a task and a
+                    sales order.</p>
+            </div>
+        </div>
+        <div class="col-md-4" style="margin-bottom: 16px;">
+            <div style="border: 1px solid #d9ded6; border-top: 6px solid #024450; border-radius: 8px; padding: 18px; height: 100%;">
+                <h4 style="font-weight: 700; font-size: 19px;">Connections to your tools</h4>
+                <p style="font-size: 15px; margin-bottom: 0;">Validated hours, trips, time off and photos go to Odoo
+                    (timesheets, projects, sales), to the social secretariat for payroll, and to the accountant.</p>
+            </div>
+        </div>
     </div>
 
-    <!-- ===================== WHAT THIS MODULE DOES ===================== -->
     <div class="row" style="margin-bottom: 32px;">
-        <div class="col-12" style="border: 1px solid #d9ded6; border-left: 6px solid #04332d; border-radius: 8px; padding: 20px 24px;">
-            <h3 style="font-weight: 800; font-size: 22px; margin-bottom: 12px;">What this module does in Odoo</h3>
-            <ul style="font-size: 16px; line-height: 1.7; margin-bottom: 12px;">
-                <li>Adds a <b>Fullyn Field</b> menu and a settings screen (platform address, API key).</li>
-                <li><b>Tests the connection</b> to your Fullyn account, after explicit opt-in by an administrator.</li>
-                <li>Runs a <b>local readiness check</b> of your database: Odoo version, active employees, active projects,
-                    and whether Project, Timesheets, Planning, Time Off and Employees are installed, with a recommendation
-                    on how to deploy Fullyn Field.</li>
-                <li>Opens your Fullyn platform and the demo booking page from the menu.</li>
-            </ul>
-            <p style="font-size: 15px; color: #3b4a46; margin-bottom: 0;">
-                <b>External service:</b> the features described below are provided by Fullyn Field, a separate
-                subscription from Fullyn SRL (Belgium). Without a Fullyn account, the menu, settings and readiness check
-                still work. This module does not contain the Fullyn Field application itself.
-            </p>
+        <div class="col-12" style="background-color: #f6f7f3; border: 1px solid #d9ded6; border-radius: 8px; padding: 20px 24px;">
+            <h4 style="font-weight: 700; font-size: 19px; margin-bottom: 12px;">How it works, in four steps</h4>
+            <ol style="font-size: 16px; line-height: 1.8; margin-bottom: 0;">
+                <li><b>The office plans</b> the week: who works on which site, on which task.</li>
+                <li><b>The field records</b> the day in the app: start/stop per job, trips, time off, photos.</li>
+                <li><b>The team leader and the office validate</b>: corrections on site, then month-end validation and closing.</li>
+                <li><b>Everything lands in the right place</b>: Odoo timesheets and projects, payroll, invoicing, margin per site.</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- ===================== IN THE APP ===================== -->
+    <div class="row" style="margin-bottom: 8px;">
+        <div class="col-12 text-center">
+            <h3 style="font-weight: 800; font-size: 26px; margin-bottom: 6px;">In the Fullyn app</h3>
+            <p style="font-size: 15px; color: #5b6b66; margin-bottom: 20px;">Real screens of the Fullyn mobile app (shown in French).</p>
+        </div>
+    </div>
+    <div class="row" style="margin-bottom: 32px;">
+        <div class="col-md-6 text-center" style="margin-bottom: 16px;">
+            <img src="phone_planning.png" alt="Fullyn app: today's planning with jobs to start" class="img-fluid" style="max-width: 260px;"/>
+            <p style="font-size: 15px; margin-top: 10px;"><b>Today's planning.</b> Each worker sees the jobs planned by the office and starts them with one tap.</p>
+        </div>
+        <div class="col-md-6 text-center" style="margin-bottom: 16px;">
+            <img src="phone_timer.png" alt="Fullyn app: job in progress with timer, worksheet and mobility" class="img-fluid" style="max-width: 260px;"/>
+            <p style="font-size: 15px; margin-top: 10px;"><b>Job in progress.</b> The timer runs; hold to stop. From here: the worksheet and the CP 124 / CP 149.01 trip declaration.</p>
         </div>
     </div>
 
@@ -59,7 +112,7 @@
                     <li>Working time recorded and validated on site, then at the office</li>
                     <li>Time off, absences and bad-weather days</li>
                     <li>CP 124 and CP 149.01 mobility</li>
-                    <li>Month-end validation and closing, sent to the social secretariat and the accountant</li>
+                    <li>Month-end closing, sent to the social secretariat and the accountant</li>
                 </ul>
             </div>
         </div>
@@ -68,9 +121,9 @@
                 <h4 style="font-weight: 700; font-size: 19px;">Operations and planning</h4>
                 <ul style="font-size: 15px; line-height: 1.6; padding-left: 18px; margin-bottom: 0;">
                     <li>The office plans, the field receives its jobs</li>
-                    <li>Individual, team or kiosk time tracking with start/stop</li>
+                    <li>Individual, team or kiosk time tracking</li>
                     <li>Team leaders validate and correct on site</li>
-                    <li>Photos, videos, voice notes and a worksheet per job</li>
+                    <li>A worksheet per job, with photos and voice notes</li>
                 </ul>
             </div>
         </div>
@@ -108,20 +161,32 @@
                 <li><b>Position recorded at start and stop</b> of each job, nothing in between and nothing when the
                     app is closed.</li>
                 <li>Six languages: French, Dutch, English, German, Italian, Spanish.</li>
-                <li>For construction, electrical and HVAC installers, maintenance, cleaning and facility, parks and
-                    gardens, from 10 to 5,000 workers.</li>
+                <li>From 10 to 5,000 workers, in Belgium and Luxembourg.</li>
             </ul>
         </div>
     </div>
 
-    <!-- ===================== SCREENSHOTS ===================== -->
-    <div class="row" style="margin-bottom: 8px;">
-        <div class="col-12 text-center">
-            <h3 style="font-weight: 800; font-size: 26px; margin-bottom: 20px;">Screenshots</h3>
+    <!-- ===================== WHAT THIS MODULE DOES ===================== -->
+    <div class="row" style="margin-bottom: 24px;">
+        <div class="col-12" style="border: 1px solid #d9ded6; border-left: 6px solid #024450; border-radius: 8px; padding: 20px 24px;">
+            <h3 style="font-weight: 800; font-size: 22px; margin-bottom: 12px;">What this module does in Odoo</h3>
+            <ul style="font-size: 16px; line-height: 1.7; margin-bottom: 12px;">
+                <li>Adds a <b>Fullyn Field</b> menu and a settings screen (platform address, API key).</li>
+                <li><b>Tests the connection</b> to your Fullyn account, after explicit opt-in by an administrator.</li>
+                <li>Runs a <b>local readiness check</b> of your database: Odoo version, active employees, active projects,
+                    and whether Project, Timesheets, Planning, Time Off and Employees are installed, with a recommendation
+                    on how to deploy Fullyn Field.</li>
+                <li>Opens your Fullyn platform and the demo booking page from the menu.</li>
+            </ul>
+            <p style="font-size: 15px; color: #3b4a46; margin-bottom: 0;">
+                <b>External service:</b> the Fullyn Field features described on this page are provided by Fullyn Field,
+                a separate subscription from Fullyn SRL (Belgium). Without a Fullyn account, the menu, settings and
+                readiness check still work. This module does not contain the Fullyn Field application itself.
+            </p>
         </div>
     </div>
     <div class="row" style="margin-bottom: 32px;">
-        <div class="col-md-10 offset-md-1" style="margin-bottom: 16px;">
+        <div class="col-md-10 offset-md-1">
             <img src="screenshot_settings.png" alt="Fullyn Field Connector settings in Odoo" class="img-fluid" style="border: 1px solid #d9ded6; border-radius: 8px;"/>
             <p style="font-size: 14px; color: #5b6b66; margin-top: 6px;">This module in Odoo: connection settings and readiness check.</p>
         </div>
@@ -133,9 +198,9 @@
             <h3 style="font-weight: 800; font-size: 22px; margin-bottom: 12px;">Two ways to run Fullyn Field with Odoo</h3>
             <table class="table" style="font-size: 15px;">
                 <tr>
-                    <th style="border-bottom: 2px solid #04332d;"></th>
-                    <th style="border-bottom: 2px solid #04332d;">Fullyn Field for Odoo</th>
-                    <th style="border-bottom: 2px solid #04332d;">Fullyn Field through the Fullyn platform</th>
+                    <th style="border-bottom: 2px solid #024450;"></th>
+                    <th style="border-bottom: 2px solid #024450;">Fullyn Field for Odoo</th>
+                    <th style="border-bottom: 2px solid #024450;">Fullyn Field through the Fullyn platform</th>
                 </tr>
                 <tr>
                     <td><b>Where data goes</b></td>
@@ -173,9 +238,10 @@
     <!-- ===================== CONTACT ===================== -->
     <div class="row" style="margin-bottom: 40px;">
         <div class="col-12 text-center">
+            <img src="mascot_small.png" alt="The Fullyn mascot" style="width: 90px; margin-bottom: 8px;"/>
             <h3 style="font-weight: 800; font-size: 24px;">See Fullyn Field on one of your sites</h3>
             <a href="mailto:info@fullyn.com?subject=Fullyn%20Field%20demo%20request%20(Odoo%20Apps)"
-               style="display: inline-block; background-color: #e0ff34; color: #04332d; font-weight: 700; font-size: 18px; padding: 14px 32px; border: 2px solid #04332d; border-radius: 999px; text-decoration: none; margin-top: 8px;">
+               style="display: inline-block; background-color: #e0ff34; color: #024450; font-weight: 700; font-size: 18px; padding: 14px 32px; border: 2px solid #024450; border-radius: 999px; text-decoration: none; margin-top: 8px;">
                 Request a demo
             </a>
             <p style="font-size: 14px; color: #5b6b66; margin-top: 12px;">
@@ -185,32 +251,39 @@
         </div>
     </div>
 
-    <!-- ===================== EN FRANÇAIS ===================== -->
+    <!-- ===================== EN FRAN&#199;AIS ===================== -->
     <div class="row" style="margin-bottom: 40px;">
-        <div class="col-12" style="border-top: 2px solid #04332d; padding-top: 24px;">
-            <h3 style="font-weight: 800; font-size: 24px;">En français</h3>
+        <div class="col-12" style="border-top: 2px solid #024450; padding-top: 24px;">
+            <h3 style="font-weight: 800; font-size: 24px;">En fran&#231;ais</h3>
+            <h4 style="font-weight: 700; font-size: 19px;">C'est quoi, Fullyn Field ?</h4>
             <p style="font-size: 16px;">
-                <b>Le bureau prépare. Le terrain exécute. Tout remonte au bon endroit.</b> Fullyn Field collecte ce que
-                vos équipes terrain ont réellement fait (prestations, heures, trajets, congés, présences sur chantier) et
-                le transforme en pré-paie, en planning et en marge par chantier. Ce connecteur gratuit relie votre base
-                Odoo à votre compte Fullyn Field.
+                <b>Fullyn Field</b> est un logiciel belge pour les entreprises qui ont des &#233;quipes sur le terrain : chantiers,
+                installateurs, techniciens de maintenance, &#233;quipes de nettoyage, parcs et jardins. Les ouvriers encodent
+                leur journ&#233;e sur leur t&#233;l&#233;phone, le chef d'&#233;quipe valide sur place, le bureau cl&#244;ture le mois, et tout part
+                vers la paie et vers Odoo, sans rien ressaisir.
             </p>
             <ul style="font-size: 15px; line-height: 1.7; padding-left: 18px;">
-                <li><b>Pointage chantier</b> en start/stop, individuel, d'équipe ou en mode Kiosk, validé sur place par le chef d'équipe.</li>
-                <li><b>Mobilités CP 124 et CP 149.01</b> : trajets déclarés dans l'app, kilomètres calculés.</li>
-                <li><b>Check In and Out at Work (CIaO)</b> : dès le 1er avril 2027, entrée et sortie enregistrées sur les chantiers d'au moins 500 000 € HTVA ; le geste start/stop les enregistre.</li>
-                <li><b>Pré-paie</b> : temps de travail, congés, absences, intempéries, validations du mois et clôture vers le secrétariat social et la fiduciaire.</li>
-                <li><b>Hors ligne</b> : l'app fonctionne en zone blanche ; les prestations partent dès le retour du réseau.</li>
-                <li><b>Rentabilité</b> : chaque prestation allouée au projet, à la tâche et à la commande client.</li>
+                <li><b>Une app mobile pour le terrain</b> : start/stop de chaque prestation, trajets, cong&#233;s, photos, vid&#233;os, notes vocales. Elle fonctionne hors ligne.</li>
+                <li><b>Un back-office pour le bureau</b> : planning, suivi de l'&#233;quipe, corrections, validations du mois et cl&#244;ture.</li>
+                <li><b>Des connexions</b> : heures valid&#233;es, trajets, cong&#233;s et photos vers Odoo (feuilles de temps, projets, ventes), le secr&#233;tariat social et la fiduciaire.</li>
+            </ul>
+            <h4 style="font-weight: 700; font-size: 19px;">Ce que Fullyn Field g&#232;re</h4>
+            <ul style="font-size: 15px; line-height: 1.7; padding-left: 18px;">
+                <li><b>Pointage chantier</b> en start/stop, individuel, d'&#233;quipe ou en mode Kiosk, et <b>Checkinatwork</b>.</li>
+                <li><b>Mobilit&#233;s CP 124 et CP 149.01</b> (PC 124 et PC 149.01 en n&#233;erlandais) : trajets d&#233;clar&#233;s dans l'app, kilom&#232;tres calcul&#233;s.</li>
+                <li><b>Check In and Out at Work (CIaO)</b> : d&#232;s le 1er avril 2027, entr&#233;e et sortie enregistr&#233;es sur les chantiers d'au moins 500 000 &#8364; HTVA ; le geste start/stop les enregistre.</li>
+                <li><b>Pr&#233;-paie</b> : temps de travail, cong&#233;s, absences, intemp&#233;ries, validations du mois et cl&#244;ture.</li>
+                <li><b>Rentabilit&#233;</b> : chaque prestation allou&#233;e au projet, &#224; la t&#226;che et &#224; la commande client.</li>
             </ul>
             <p style="font-size: 15px;">
-                <b>Ce que fait le module dans Odoo :</b> un menu Fullyn Field, un écran de configuration (adresse de la
-                plateforme, clé API), un test de connexion après accord explicite d'un administrateur, et un diagnostic
-                local de votre base. Les fonctionnalités ci-dessus sont fournies par Fullyn Field, abonnement distinct.
+                <b>Ce que fait ce module dans Odoo :</b> c'est le connecteur gratuit. Il ajoute un menu Fullyn Field, un
+                &#233;cran de configuration (adresse de la plateforme, cl&#233; API), un test de connexion apr&#232;s accord explicite
+                d'un administrateur, et un diagnostic local de votre base. Les fonctionnalit&#233;s de Fullyn Field sont
+                fournies par un abonnement distinct.
             </p>
             <a href="mailto:info@fullyn.com?subject=Demande%20de%20d%C3%A9mo%20Fullyn%20Field%20(Odoo%20Apps)"
-               style="display: inline-block; background-color: #e0ff34; color: #04332d; font-weight: 700; font-size: 17px; padding: 12px 28px; border: 2px solid #04332d; border-radius: 999px; text-decoration: none;">
-                Demander une démo
+               style="display: inline-block; background-color: #e0ff34; color: #024450; font-weight: 700; font-size: 17px; padding: 12px 28px; border: 2px solid #024450; border-radius: 999px; text-decoration: none;">
+                Demander une d&#233;mo
             </a>
         </div>
     </div>
