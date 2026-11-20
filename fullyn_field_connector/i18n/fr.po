@@ -1,0 +1,338 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* fullyn_field_connector
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-20 12:45+0000\n"
+"PO-Revision-Date: 2026-11-20 12:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: fullyn_field_connector
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "API key"
+msgstr "Clé API"
+
+#. module: fullyn_field_connector
+#: model:ir.model.fields,field_description:fullyn_field_connector.field_res_config_settings__fullyn_employee_count
+msgid "Active employees"
+msgstr "Employés actifs"
+
+#. module: fullyn_field_connector
+#: model:ir.model.fields,field_description:fullyn_field_connector.field_res_config_settings__fullyn_project_count
+msgid "Active projects"
+msgstr "Projets actifs"
+
+#. module: fullyn_field_connector
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "Address of your Fullyn platform. Default: https://app.fullyn.com"
+msgstr ""
+"Adresse de votre plateforme Fullyn. Par défaut : https://app.fullyn.com"
+
+#. module: fullyn_field_connector
+#: model:ir.model.fields,field_description:fullyn_field_connector.field_res_config_settings__fullyn_data_consent
+msgid "Allow data exchange with Fullyn"
+msgstr "Autoriser l'échange de données avec Fullyn"
+
+#. module: fullyn_field_connector
+#: model:ir.actions.server,name:fullyn_field_connector.action_fullyn_book_demo
+#: model:ir.ui.menu,name:fullyn_field_connector.menu_fullyn_book_demo
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "Book a demo"
+msgstr "Demander une démo"
+
+#. module: fullyn_field_connector
+#: model:ir.model,name:fullyn_field_connector.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de configuration"
+
+#. module: fullyn_field_connector
+#: model:ir.ui.menu,name:fullyn_field_connector.menu_fullyn_settings
+msgid "Configuration"
+msgstr "Configuration"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Connected to the Fullyn account %(account)s."
+msgstr "Connecté au compte Fullyn %(account)s."
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Connected to your Fullyn account."
+msgstr "Connecté à votre compte Fullyn."
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Connection OK"
+msgstr "Connexion réussie"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Connection failed"
+msgstr "Échec de la connexion"
+
+#. module: fullyn_field_connector
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "Connection test"
+msgstr "Test de connexion"
+
+#. module: fullyn_field_connector
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "Connection to Fullyn"
+msgstr "Connexion à Fullyn"
+
+#. module: fullyn_field_connector
+#: model:ir.model.fields,field_description:fullyn_field_connector.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Employees"
+msgstr "Employés"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Enter the API key of your Fullyn account first."
+msgstr "Saisissez d'abord la clé API de votre compte Fullyn."
+
+#. module: fullyn_field_connector
+#: model:ir.model.fields,field_description:fullyn_field_connector.field_res_config_settings__fullyn_api_key
+msgid "Fullyn API key"
+msgstr "Clé API Fullyn"
+
+#. module: fullyn_field_connector
+#: model:ir.ui.menu,name:fullyn_field_connector.menu_fullyn_root
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "Fullyn Field"
+msgstr "Fullyn Field"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid ""
+"Fullyn Field for Odoo supports Odoo 19 and 20. On another version, connect "
+"Odoo to Fullyn Field through the Fullyn platform API."
+msgstr ""
+"Fullyn Field for Odoo est disponible pour Odoo 19 et 20. Sur une autre "
+"version, connectez Odoo à Fullyn Field via l'API de la plateforme Fullyn."
+
+#. module: fullyn_field_connector
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "Fullyn platform"
+msgstr "Plateforme Fullyn"
+
+#. module: fullyn_field_connector
+#: model:ir.model.fields,field_description:fullyn_field_connector.field_res_config_settings__fullyn_platform_url
+msgid "Fullyn platform address"
+msgstr "Adresse de la plateforme Fullyn"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Fullyn platform unreachable from this server."
+msgstr "La plateforme Fullyn est injoignable depuis ce serveur."
+
+#. module: fullyn_field_connector
+#: model:ir.model.fields,field_description:fullyn_field_connector.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid ""
+"Install Project and Timesheets so that field work can be allocated to "
+"projects, tasks and sales orders. Without them, Fullyn Field works through "
+"the Fullyn platform and sends validated data to Odoo by API."
+msgstr ""
+"Installez Projet et Feuilles de temps pour allouer les prestations du "
+"terrain aux projets, aux tâches et aux commandes clients. Sans eux, Fullyn "
+"Field fonctionne via la plateforme Fullyn et renvoie les données validées "
+"vers Odoo par API."
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Invalid API key"
+msgstr "Clé API refusée"
+
+#. module: fullyn_field_connector
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "Key of your Fullyn account, available from your Fullyn administrator."
+msgstr "Clé de votre compte Fullyn, fournie par votre administrateur Fullyn."
+
+#. module: fullyn_field_connector
+#: model:ir.model.fields,field_description:fullyn_field_connector.field_res_config_settings__fullyn_last_check
+msgid "Last connection test"
+msgstr "Dernier test de connexion"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Never"
+msgstr "Jamais"
+
+#. module: fullyn_field_connector
+#: model:ir.model.fields,field_description:fullyn_field_connector.field_res_config_settings__fullyn_odoo_version
+msgid "Odoo version"
+msgstr "Version d'Odoo"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Only administrators can test the connection."
+msgstr "Seuls les administrateurs peuvent tester la connexion."
+
+#. module: fullyn_field_connector
+#: model:ir.actions.server,name:fullyn_field_connector.action_fullyn_open_platform
+#: model:ir.ui.menu,name:fullyn_field_connector.menu_fullyn_open_platform
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "Open the Fullyn platform"
+msgstr "Ouvrir la plateforme Fullyn"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Planning"
+msgstr "Planning"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Project"
+msgstr "Projet"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid ""
+"Project and Timesheets are installed: field work can be written directly "
+"into task and project timesheets with Fullyn Field for Odoo (Odoo.sh or "
+"self-hosted), or synchronised through the Fullyn platform."
+msgstr ""
+"Projet et Feuilles de temps sont installés : les prestations du terrain "
+"peuvent être écrites directement dans les feuilles de temps des tâches et "
+"des projets avec Fullyn Field for Odoo (Odoo.sh ou hébergement propre), ou "
+"synchronisées via la plateforme Fullyn."
+
+#. module: fullyn_field_connector
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "Readiness check (local, nothing is sent)"
+msgstr "Diagnostic de votre base (local, rien n'est envoyé)"
+
+#. module: fullyn_field_connector
+#: model:ir.model.fields,field_description:fullyn_field_connector.field_res_config_settings__fullyn_recommendation
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "Recommendation"
+msgstr "Recommandation"
+
+#. module: fullyn_field_connector
+#: model:ir.model.fields,field_description:fullyn_field_connector.field_res_config_settings__fullyn_apps_status
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "Related Odoo apps"
+msgstr "Applications Odoo concernées"
+
+#. module: fullyn_field_connector
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid ""
+"Required before any exchange. The connection test only sends the API key and"
+" the module version to the Fullyn platform. No employee, project or "
+"timesheet data is sent by this module."
+msgstr ""
+"Obligatoire avant tout échange. Le test de connexion n'envoie que la clé API"
+" et la version du module à la plateforme Fullyn. Ce module n'envoie aucune "
+"donnée d'employé, de projet ni de feuille de temps."
+
+#. module: fullyn_field_connector
+#: model:ir.actions.act_window,name:fullyn_field_connector.action_fullyn_settings
+msgid "Settings"
+msgstr "Paramètres"
+
+#. module: fullyn_field_connector
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "Test connection"
+msgstr "Tester la connexion"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "The API key was refused by the Fullyn platform."
+msgstr "La clé API a été refusée par la plateforme Fullyn."
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "The Fullyn platform address must start with https://"
+msgstr "L'adresse de la plateforme Fullyn doit commencer par https://"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid ""
+"The address answered, but not as the Fullyn API. Check the platform address."
+msgstr ""
+"L'adresse répond, mais pas comme l'API Fullyn. Vérifiez l'adresse de la "
+"plateforme."
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Tick \"Allow data exchange with Fullyn\" before testing the connection."
+msgstr ""
+"Cochez « Autoriser l'échange de données avec Fullyn » avant de tester la "
+"connexion."
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Time Off"
+msgstr "Congés"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Timesheets"
+msgstr "Feuilles de temps"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "Unexpected answer from the Fullyn platform (HTTP %(code)s)."
+msgstr "Réponse inattendue de la plateforme Fullyn (HTTP %(code)s)."
+
+#. module: fullyn_field_connector
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "Your database"
+msgstr "Votre base"
+
+#. module: fullyn_field_connector
+#: model_terms:ir.ui.view,arch_db:fullyn_field_connector.res_config_settings_view_form
+msgid "https://app.fullyn.com"
+msgstr "https://app.fullyn.com"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "installed"
+msgstr "installée"
+
+#. module: fullyn_field_connector
+#. odoo-python
+#: code:addons/fullyn_field_connector/models/res_config_settings.py:0
+msgid "not installed"
+msgstr "non installée"
