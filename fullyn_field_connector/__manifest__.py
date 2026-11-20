@@ -3,16 +3,20 @@
 {
     "name": "Fullyn Field Connector",
     "summary": (
-        "Connect Odoo to Fullyn Field: site time tracking, CP 124 / CP 149.01 "
-        "mobility, Check In and Out at Work, pre-payroll for field teams"
+        "Field Service, Planning, Timesheets and Pre-payroll for field teams: "
+        "site time tracking, Checkinatwork, Check In and Out at Work (CIAO), "
+        "CP 124 / PC 124 and CP 149.01 / PC 149.01 mobility"
     ),
     "description": """
 Fullyn Field Connector
 ======================
 
-Connects your Odoo database to Fullyn Field, the field-team solution
-(planning, site time tracking, mobility, month-end validation and closing
-before payroll).
+Connects your Odoo database to Fullyn Field, the Belgian field-team solution:
+Field Service, Planning, Timesheets, Pre-payroll, site time tracking
+(start/stop, team and kiosk), Checkinatwork, Check In and Out at Work (CIAO),
+mobility CP 124 / PC 124 and CP 149.01 / PC 149.01, time off, month-end
+validation and closing before payroll. For construction, installers,
+maintenance, cleaning and landscaping companies.
 
 What the module does
 --------------------
@@ -34,7 +38,7 @@ Fullyn" and clicks "Test connection". The test only sends the API key and
 the module version to the platform address configured in the settings.
 No employee, project or timesheet data is sent by this module.
 """,
-    "version": "19.0.1.0.0",
+    "version": "19.0.1.0.2",
     "category": "Human Resources",
     "author": "Fullyn",
     "website": "https://fullyn.com",
